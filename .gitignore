@@ -22,3 +22,52 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore compiled class files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore logs
+*.log
+
+# Ignore IDE folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+
+# Maven target directory
+target/
+
+# Gradle build directory
+build/
+
+# Ignore JDK, IDE, and build files
+OpenJDK-23.jdk/
+.idea/
+*.class
+*.jar
+# Ignore compiled Java classes
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore BlueJ / VSCode / IntelliJ / Eclipse project files
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore JDK folders
+*.jdk/
