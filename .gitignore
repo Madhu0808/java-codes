@@ -21,3 +21,9 @@ target/
 
 # Gradle build directory
 build/
+
+# Ignore JDK, IDE, and build files
+OpenJDK-23.jdk/
+.idea/
+*.class
+*.jar
