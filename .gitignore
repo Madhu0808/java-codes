@@ -27,3 +27,22 @@ OpenJDK-23.jdk/
 .idea/
 *.class
 *.jar
+# Ignore compiled Java classes
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore BlueJ / VSCode / IntelliJ / Eclipse project files
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore JDK folders
+*.jdk/
