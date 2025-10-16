@@ -9,7 +9,7 @@ public class Compress {
                 count++;
                 i++;
                 }
-                sb.append(str.charAt(i));
+                sb.append(Character.toUpperCase(str.charAt(i)));
                 if(count > 1){
                     sb.append(count);
                 }
